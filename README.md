@@ -16,6 +16,10 @@ Use the files directly with your existing Oracle tools and environment
 
 `beaver_nl2sql.jsonl` - All 209 natural-language to Oracle SQL pairs (one JSON object per line)
 
+### Original Beaver Dataset
+The original Beaver dataset is published here: 
+https://peterbaile.github.io/beaver/
+
 ### How to use the data with Oracle
 You can load the dataset in either of the following ways
 
