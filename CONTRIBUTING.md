@@ -1,0 +1,1 @@
+This repo does not accept external contributions.
