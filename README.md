@@ -11,7 +11,9 @@ Use the files directly with your existing Oracle tools and environment
 
 ### Dataset contents
 `beaver_ddl.json` - 475 converted DDL objects (one JSON object per line)
+
 `beaver_dml.json` - All converted DML statements in a single JSON file.
+
 `beaver_nl2sql.jsonl` - All 209 natural-language to Oracle SQL pairs (one JSON object per line)
 
 ### How to use the data with Oracle
