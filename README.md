@@ -2,6 +2,9 @@
 
 Converted version of the Beaver dataset for Oracle. This repository contains only data and usage notes. 
 
+The original Beaver dataset is published here: 
+https://peterbaile.github.io/beaver/
+
 ## Installation
 
 No software installation is required for this repository.
@@ -15,10 +18,6 @@ Use the files directly with your existing Oracle tools and environment
 `beaver_dml.json` - All converted DML statements in a single JSON file.
 
 `beaver_nl2sql.jsonl` - All 209 natural-language to Oracle SQL pairs (one JSON object per line)
-
-### Original Beaver Dataset
-The original Beaver dataset is published here: 
-https://peterbaile.github.io/beaver/
 
 ### How to use the data with Oracle
 You can load the dataset in either of the following ways
@@ -50,10 +49,6 @@ Each line of `beaver_ddl.jsonl` is a JSON object that includes a field containin
 
 * Record every statement in a lightweight results file (table, SQL, status, and any error), and include a retry step that re-executes only the failures after you’ve fixed the underlying issue.
 
-
-## Contributing
-
-This project welcomes contributions from the community. Before submitting a pull request, please [review our contribution guide](./CONTRIBUTING.md)
 
 ## Security
 
